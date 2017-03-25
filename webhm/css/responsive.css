@@ -1,0 +1,46 @@
+.sidr{display: none;}
+#simple-menu{display: none;}
+@media screen and (max-width: 1199px){
+	.menu-css ul li{padding: 25px 20px 0 5px;}
+}
+
+@media screen and (max-width: 991px){
+	.menu-css ul li{padding: 15px 20px 0 0px;}
+	.menu-css ul li a{font-size: 11px!important;}
+}
+
+@media screen and (max-width: 768px){
+	header{display: none;}
+	.sidr{display: block;}
+	#simple-menu{display: block;}
+	.width768{width: 100%;}
+}
+
+@media screen and (max-width: 600px){
+	.width600{width: 100%;}
+	.owl-prev,.owl-next{display: none!important;}
+	.col620{width: 50%; margin: 10px 0;}
+}
+
+@media screen and (max-width: 480px){
+	.btn_00{margin-left: 0!important;}
+	input[type="text"]{margin: 10px 0;}
+	.width480{width: 100%;}
+	.box-img-1{width: 100%;}
+}
+
+@media screen and (max-width: 420px){
+	.width420{width: 100%!important;}
+	.width420 img{width: 100%;}
+	.box-knowledge{width: 50%;}
+	.col620{width: 100%;}
+	.col620 img{width: 100%;}
+}
+
+@media screen and (max-width: 380px){
+	label.title-subscribe{font-size: 15px;}
+	.width11{width: 100%;}
+	.width320{width: 100%; margin-top: 15px;}
+	.social{text-align: left;}
+	button.btn-detail{margin: 0 auto;}
+}
